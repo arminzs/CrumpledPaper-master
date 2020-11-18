@@ -21,7 +21,7 @@ function setup() {
 	//Create a Ground
 	
 
-	var render = Render.create({
+	/*var render = Render.create({
 	  element: document.body,
 	  engine: engine,
 	  options: {
@@ -29,7 +29,7 @@ function setup() {
 	    height: 700,
 	    wireframes: false
 	  }
-	});
+	});*/
 
 	Engine.run(engine);
 	//Render.run(render);
@@ -39,7 +39,7 @@ function setup() {
 
 function draw() {
   rectMode(CENTER);
-  background(0);
+  background("blue");
  
   dustbinObj.display();
   paperObject.display();
